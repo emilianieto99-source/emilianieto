@@ -1,0 +1,123 @@
+{
+  "wellness": {
+    "src": "assets/img/wellness.jpg",
+    "title": "Stretching and meditation practice at home during morning light",
+    "creator": "nenadstojkovicart",
+    "creator_url": "https://www.flickr.com/photos/202846129@N03",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/202846129@N03/54578528897",
+    "source": "flickr"
+  },
+  "portrait": {
+    "src": "assets/img/portrait.jpg",
+    "title": "My Purty Hair 2",
+    "creator": "Elizabeth/Table4Five",
+    "creator_url": "https://www.flickr.com/photos/92382806@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/92382806@N00/2673079326",
+    "source": "flickr"
+  },
+  "office": {
+    "src": "assets/img/office.jpg",
+    "title": "Walmer Castle & Gardens (EH) 20-04-2012",
+    "creator": "Karen Roe",
+    "creator_url": "https://www.flickr.com/photos/28752865@N08",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/28752865@N08/7189007994",
+    "source": "flickr"
+  },
+  "hero": {
+    "src": "assets/img/hero.jpg",
+    "title": "Germany July 4",
+    "creator": "Alexander Annenkov",
+    "creator_url": "https://www.flickr.com/photos/31765035@N05",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/31765035@N05/9383899030",
+    "source": "flickr"
+  },
+  "consult": {
+    "src": "assets/img/consult.jpg",
+    "title": "Items I carry in my messenger bag",
+    "creator": "Lee Cannon",
+    "creator_url": "https://www.flickr.com/photos/9763931@N04",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/9763931@N04/6611071743",
+    "source": "flickr"
+  },
+  "carousel1": {
+    "src": "assets/img/carousel1.jpg",
+    "title": "Lisa Stevens (05811852)",
+    "creator": "IAEA Imagebank",
+    "creator_url": "https://www.flickr.com/photos/35068899@N03",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/35068899@N03/53502529635",
+    "source": "flickr"
+  },
+  "carousel2": {
+    "src": "assets/img/carousel2.jpg",
+    "title": "Підтримка ветеранів",
+    "creator": "EU-Ukraine cooperation",
+    "creator_url": "https://www.flickr.com/photos/149400054@N04",
+    "license": "by-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/149400054@N04/54241960103",
+    "source": "flickr"
+  },
+  "carousel4": {
+    "src": "assets/img/carousel4.jpg",
+    "title": "Yoga Woman",
+    "creator": "Burst",
+    "creator_url": "https://burst.shopify.com",
+    "license": "cc0",
+    "license_version": "1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "foreign_landing_url": "https://stocksnap.io/photo/yoga-woman-W23EUNXBCG",
+    "source": "stocksnap"
+  },
+  "carousel5": {
+    "src": "assets/img/carousel5.jpg",
+    "title": "My health graph v2",
+    "creator": "juhansonin",
+    "creator_url": "https://www.flickr.com/photos/38869431@N00",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/38869431@N00/4646203016",
+    "source": "flickr"
+  },
+  "carousel3": {
+    "src": "assets/img/carousel3.jpg",
+    "title": "Vintage typewriter and coffee cup at a cozy wooden table in a home office setting",
+    "creator": "nenadstojkovicart",
+    "creator_url": "https://www.flickr.com/photos/202846129@N03",
+    "license": "by",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/202846129@N03/54570976325",
+    "source": "flickr"
+  },
+  "carousel3": {
+    "src": "assets/img/carousel3.jpg",
+    "title": "shop till ya drop",
+    "creator": "MTSOfan",
+    "creator_url": "https://www.flickr.com/photos/8628862@N05",
+    "license": "by-nc-sa",
+    "license_version": "2.0",
+    "license_url": "https://creativecommons.org/licenses/by-nc-sa/2.0/",
+    "foreign_landing_url": "https://www.flickr.com/photos/8628862@N05/2726420212",
+    "source": "flickr"
+  }
+}
