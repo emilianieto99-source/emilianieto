@@ -309,6 +309,50 @@
     });
   }
 
+  /* ---- booking session tabs ---- */
+  function initBookingTabs() {
+    var tabs = document.querySelectorAll(".booking-tab");
+    if (!tabs.length) return;
+
+    tabs.forEach(function (tab) {
+      tab.addEventListener("click", function () {
+        tabs.forEach(function (t) {
+          t.classList.remove("is-active");
+          t.setAttribute("aria-selected", "false");
+        });
+        tab.classList.add("is-active");
+        tab.setAttribute("aria-selected", "true");
+
+        var slug = tab.getAttribute("data-cal-link");
+        var si = document.getElementById("cal-embed-si");
+        var st = document.getElementById("cal-embed-st");
+        if (!si || !st) return;
+        si.style.display = slug === "si" ? "" : "none";
+        st.style.display = slug === "st" ? "" : "none";
+      });
+    });
+  }
+
+  /* ---- quote rotator ---- */
+  function initQuoteRotator() {
+    var wrap = document.getElementById("quote-rotator");
+    if (!wrap) return;
+    var quotes = wrap.querySelectorAll(".about-quote-text");
+    var dots   = wrap.querySelectorAll(".quote-dot");
+    var current = 0;
+
+    function show(idx) {
+      quotes[current].hidden = true;
+      dots[current].classList.remove("is-active");
+      current = (idx + quotes.length) % quotes.length;
+      quotes[current].hidden = false;
+      dots[current].classList.add("is-active");
+    }
+
+    dots.forEach(function (d, i) { d.addEventListener("click", function () { show(i); }); });
+    setInterval(function () { show(current + 1); }, 4000);
+  }
+
   /* ---- boot ---- */
   document.addEventListener("DOMContentLoaded", function () {
     safe(initSmoothScroll, "initSmoothScroll");
@@ -316,6 +360,8 @@
     safe(initReveals, "initReveals");
     safe(initCountUp, "initCountUp");
     safe(initAboutCarousel, "initAboutCarousel");
+    safe(initQuoteRotator, "initQuoteRotator");
+    safe(initBookingTabs, "initBookingTabs");
     safe(initServiceLinks, "initServiceLinks");
     safe(initBookingForm, "initBookingForm");
     safe(initTilt, "initTilt");
