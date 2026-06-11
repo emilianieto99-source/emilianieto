@@ -684,9 +684,8 @@ fieldset { border: none; }
 }
 
 .about-quote-card {
-  position: absolute;
-  bottom: -24px;
-  right: -32px;
+  position: static;
+  margin-top: 1rem;
   padding: 1.25rem 1.5rem;
   max-width: 260px;
   z-index: 2;
